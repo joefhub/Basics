@@ -1,0 +1,11 @@
+pyg = 'ay'
+word = raw_input("Please Type Word:")
+first = word[0]
+new_word = word + first + pyg
+
+if len(word) > 0 and word.isalpha:
+    print new_word[1:len(new_word)]
+else:
+    print "Not Found"
+    
+#Fix: Numbers are working make Alpha ONLY
